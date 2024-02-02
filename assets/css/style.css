@@ -1057,7 +1057,7 @@ section {
 }
 
 .appointment .php-email-form button[type=submit] {
-  background: #3fbbc0;
+  background: orangered;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1633,7 +1633,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #3fbbc0;
+  background: orangered;
   border: 0;
   padding: 10px 30px;
   color: #fff;
