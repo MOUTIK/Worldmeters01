@@ -16,7 +16,7 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->   
+  <!-- Vendor CSS Files -->
   <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -27,8 +27,15 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Worldomaters Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">   
-  
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Worldomaters Name: Worldomaters
+  * Updated: Jan 09 2024 with Bootstrap v5.3.2
+  * Worldomaters URL: https://bootstrapmade.com/Worldomaters-free-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
 <body>
@@ -40,7 +47,7 @@
         <i class="bi bi-clock"></i> Du lundi au samedi, de 8h à 22h
       </div>
       <div class="d-flex align-items-center">
-        <i class="bi bi-phone"></i>  (+212) 678381564
+        <i class="bi bi-phone"></i>  (+212) 5355631524
       </div>
     </div>
   </div>
@@ -69,7 +76,7 @@
       <a href="#appointment" class="appointment-btn scrollto"><span class="d-none d-md-inline">Faire un</span> Rendez-vous</a>
 
     </div>
-  </header><!-- End Header --> 
+  </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
   <section id="hero">
@@ -85,9 +92,8 @@
         <!-- Slide 2 -->
         <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg);">
          
-        </div>   
-
-      </div>   
+        </div>  
+      </div>
 
       <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
         <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
@@ -105,7 +111,7 @@
     <section id="featured-services" class="featured-services">
       <div class="container" data-aos="fade-up">
         <h3>  Statistiques totales de Corona : </h3>
-        <div class="row">
+        <div class="row" style="display: flex; flex-direction: row; align-content: center; justify-content: space-evenly; align-items: center; ">
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
               <div class="icon"><i class="fas fa-dna"></i></div>
@@ -133,7 +139,12 @@
           </div> 
 
         </div>
+        <br>
+        <h3>  Statistiques totales de Corona par région : </h3>
+        <br>
+        <div id="CoronaRegion" class="row" style="display: flex; flex-direction: row; align-content: center; justify-content: space-evenly; align-items: center; ">
 
+        </div>
       </div>
     </section><!-- End Featured Services Section -->
 
@@ -154,17 +165,17 @@
     <section id="about" class="about">
       <div class="container" data-aos="fade-up"> 
         <div class="section-title">
-          <h2>À propos de coronavirus </h2>
+          <h2>À propos de nous</h2>
         </div> 
         <div class="row">
           <div class="col-lg-6" data-aos="fade-right">
-            <img src="assets/img/about.png" class="img-fluid" alt="">
+            <img src="assets/img/about.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3><br/>
-              Les coronavirus sont un type de virus. </h3>
+            <h3>Coronaviruses are type of virus. </h3>
             <p class="fst-italic">
-              Il existe de nombreux types différents, et certains types de maladies nouvellement identifiés ont provoqué une récente épidémie d'insuffisance respiratoire maintenant appelée COVID-19 qui a commencé en Chine. </p>
+              There are many different kinds, & some cause disease newly identified type has caused recent outbreak of respiratory ilnessnow called COVID-19 that started in China.
+            </p>
             <ul>
               <li><i class="bi bi-check-circle"></i> Le COVID-19 est la maladie causée par le nouveau coronavirus apparu en Chine en décembre 2020.</li>
               <li><i class="bi bi-check-circle"></i>Les symptômes du COVID-19 comprennent la toux, la fièvre et l’essoufflement. Le COVID-19 peut être grave et certains cas ont entraîné la mort.</li>
@@ -176,10 +187,58 @@
       </div>
     </section><!-- End About Us Section -->
 
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row no-gutters">
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <i class="fas fa-user-md"></i>
+              <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="1" class="purecounter"></span>
+
+              <p><strong>Les médecins </strong> ont roulé</p>
+              <a href="#">En savoir plus &raquo;</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <i class="far fa-hospital"></i>
+              <span data-purecounter-start="0" data-purecounter-end="26" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Les ministères</strong> découvrent comment ils sont censés être délégués</p>
+              <a href="#">En savoir plus &raquo;</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <i class="fas fa-flask"></i>
+              <span data-purecounter-start="0" data-purecounter-end="14" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Laboratoire de Recherche</strong> confortablement calme. N'importe quelle raison</p>
+              <a href="#">En savoir plus &raquo;</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <i class="fas fa-award"></i>
+              <span data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Récompenses</strong> étiqueté comme soulagement de la douleur douleur</p>
+              <a href="#">En savoir plus &raquo;</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
     <!-- ======= Features Section ======= -->
     <section id="features" class="features">
       <div class="container" data-aos="fade-up">
-        <br/><br/><br/>
+
         <div class="row">
           <div class="col-lg-6 order-2 order-lg-1" data-aos="fade-right">
             <div class="icon-box mt-5 mt-lg-0">
@@ -203,7 +262,7 @@
               <p>Actuellement, et en pratique, il n'y a pas suffisamment de données pour déterminer comment une infection antérieure par COVID-19 affecte l'efficacité du vaccin. On sait que l'immunité naturelle contre le virus diminue avec le temps, donc actuellement, les personnes qui ont déjà été infectées, sont éligibles à recevoir le vaccin</p>
             </div>
           </div>
-          <div class="image col-lg-6 order-1 order-lg-2" style='background-image: url("assets/img/symptoms.png");'  ></div>
+          <div class="image col-lg-6 order-1 order-lg-2" style='background-image: url("assets/img/features.jpg");' data-aos="zoom-in"></div>
         </div>
 
       </div>
@@ -723,36 +782,85 @@
   <script src="assets/js/main.js"></script>
 
   <script>
-    const targetUrl = 'https://www.covidmaroc.ma/Pages/Accueilfr.aspx';
-    const xhr = new XMLHttpRequest();
-    xhr.onreadystatechange = function () {
-      if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
-        var tempDiv = document.createElement('div');
-        tempDiv.innerHTML = xhr.response;
-        var total__case = 0;
-        var tr = tempDiv.querySelectorAll(".ms-rtestate-field div table tr")
-        tr?.forEach((item,i) => {
-          if(i != 0 && i < tr.length - 1){
-            (item.querySelectorAll("td p span"))?.forEach((span,j) => {
-              if(i == 1){
-                var __number = (span.innerText.match(/[0-9]{0,}\d/g))
-                document.querySelector(`#Case__`+j).innerHTML = "<span> "+__number.join(" ") + "</span>";
+    const Statistiques_totales_de_Corona = () => {
+      try{
+        const targetUrl = 'https://www.covidmaroc.ma/Pages/Accueilfr.aspx';
+        const xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function () {
+          if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+            var tempDiv = document.createElement('div');
+            tempDiv.innerHTML = xhr.response;
+            var total__case = 0;
+            var tr = tempDiv.querySelectorAll(".ms-rtestate-field div table tr")
+            tr?.forEach((item,i) => {
+              if(i != 0 && i < tr.length - 1){
+                (item.querySelectorAll("td p span"))?.forEach((span,j) => {
+                  if(i == 1){
+                    var __number = (span.innerText.match(/[0-9]{0,}\d/g))
+                    document.querySelector(`#Case__`+j).innerHTML = "<span> "+__number.join(" ") + "</span>";
+                  }
+                  if(i == 2){
+                    var s_Span = span.querySelectorAll("span")
+                    if(s_Span?.length > 0){
+                      var __number = (s_Span[0].innerText.match(/[0-9]{0,}\d/g))
+                      document.querySelector(`#Case__`+2).innerHTML =  "<span> "+__number.join(" ") + "</span>";
+                    }
+                  }
+                 
+                })
               }
-              if(i == 2){
-                var s_Span = span.querySelectorAll("span")
-                if(s_Span?.length > 0){
-                  var __number = (s_Span[0].innerText.match(/[0-9]{0,}\d/g))
-                  document.querySelector(`#Case__`+2).innerHTML =  "<span> "+__number.join(" ") + "</span>";
-                }
-              }
-
             })
           }
-        })
+        };
+        xhr.open('GET', targetUrl);
+        xhr.send();
+      }catch(err){
+        console.error(err?.message)
       }
-    };
-    xhr.open('GET', targetUrl);
-    xhr.send();
+    }
+    const Total_des_cas_par_region = () => {
+      try{
+        const targetUrl = 'https://sehhty.com/ma-covid/#counter-stats';
+        const xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = () => {
+          if(xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200){
+            var tempDiv = document.createElement('div');
+            tempDiv.innerHTML = xhr.response;
+            var ul = tempDiv.querySelectorAll("#counter-stats .qa-nav-main .qa-nav-main-list")
+            const DivContent = (titleFr,titleAR,totalRegion) => {
+              return (
+                `<div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" style="margin-bottom:30px !important">
+                  <div class="icon-box" data-aos="fade-up" data-aos-delay="400" style="width:100%;background: #fff">
+                    <h4 class="title"><a href="" >${titleFr}</a></h4>
+                    <hr/>
+                    <h4 class="title" style="direction: rtl;"><a href="" >${titleAR}</a></h4>
+                    <hr/>
+                    <p class="description" style="text-align: center;font-weight: bold;font-size: 24px;">${totalRegion}</p>
+                  </div>
+                 </div>`
+              )
+            }
+            const li = ul[2].querySelectorAll("li");
+            const CoronaRegion = document.querySelector("#CoronaRegion")
+            tempDiv.innerText = null;
+            li?.forEach((item,i) => {
+              const div = item.querySelectorAll("div:not(.cardactive)")
+              console.log(div)
+              CoronaRegion.innerHTML += DivContent(div[1]?.innerText,div[0]?.innerText,div[2]?.innerText);
+            })
+          }
+        }
+        xhr.open('GET', targetUrl);
+        xhr.send();
+      }catch(err){
+        console.error(err?.message)
+      }
+    }
+    (() => {
+      Statistiques_totales_de_Corona();
+      Total_des_cas_par_region();
+    })();
+
   </script>
 </body>
 
